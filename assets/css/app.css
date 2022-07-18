@@ -1,0 +1,134 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main>.container {
+  padding: 60px 15px 0;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+  color: #fff;
+  background-color: var(--bs-dark);
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+.item-opor {
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 50px rgb(151 171 160 / 25%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-radius: 20px;
+  flex-grow: 0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.precio {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  align-items: center;
+  color: #112313;
+}
+
+
+.texto {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #112313;
+}
+
+
+.texto {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 28px;
+  color: #112313;
+}
+
+.info2 {
+  border-radius: 16px;
+  padding: 8px 16px;
+  background: #34AF6E;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.p-t-7{
+  padding-top: 7px;
+}
+
+.m-t-10{
+  margin-top: 10px;
+}
+
+.contenedor-padding{
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.h-155{
+  min-height: 155px;
+}
+
+.a-center{
+  text-align: center;
+}
+
+.btn-adds{
+  color: #fff;
+  background-color: green;
+  border-color: green;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+
+.btn-removes{
+  color: #fff;
+  background-color: red;
+  border-color: red;
+  border-radius: 16px;
+  font-size: 17px;
+}
